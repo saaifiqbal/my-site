@@ -1,0 +1,205 @@
+
+/*** REUSABLE CONPONENET ***/
+.middleSection{
+    margin:auto 12%;
+}
+/* END REUSABLE COMPONENT */
+.TopFixedBanner{
+    background: url("../image/TopBanner.jpg");
+    min-height: 500px;
+    min-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topBannerOverlay{
+    position: absolute;
+    min-height: 500px;
+    width: 76%;
+    background: rgba(0, 0,0,0.6);
+}
+.topContain{
+    margin-top: 12rem;
+}
+
+.fontMon{
+    font-family: 'Montserreat','sans-serif';
+    
+}
+.topTitle{
+    color: #d3d3d3 !important;
+    font-size: 40px;
+    font-weight: 700;
+}
+.fontRal{
+    text-decoration: none;
+    font-family: 'Raleway','sans-serif';
+    
+}
+.topSubTitle{
+    text-decoration: none;
+    color: #9c9c9c !important;
+    font-size: 25px;
+    font-weight: 700;
+}
+.topNav{
+    color: #9c9c9c;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+}
+.weight600{
+    font-weight: 600;
+}
+.topIcon{
+    height: 6rem;
+    width: 6rem;
+}
+.topNavIcon{
+    height: 40px;
+    width: 40px;
+}
+.topNavScroll{
+    color: #9c9c9c;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+}
+.navBG{
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: rgba(00,00,00,00) !important;
+}
+.navBgScroll{
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.letestPost{
+    height: auto;
+    min-width: 100%;
+    color:#646464;
+    background-color:rgb(0, 0, 0,0.9);
+}
+.marginLeft10{
+    margin-left: 20px;
+}
+.marginTop20{
+    margin-top: 20px;
+}
+.signInBack{
+    background: url("../image/BackGround.jpg");
+    min-height: 920px;
+    min-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+.signInBackOverlay{
+    
+    min-height: 920px;
+    width: 100%;
+    background: rgba(0, 0,0,0.6);
+}
+.signInSize{
+    height: auto;
+    width: 100%;
+    margin-top: 100px;
+
+}
+.signInTop{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    color:#9c9c9c;
+
+}
+.topTitleBack{
+    background-color: rgba(0, 0, 0, 0.8);
+    color:#9c9c9c;
+
+}
+.signInMid{
+    background-color: rgb(0, 0, 0,.5);
+    padding: 20px;
+    color:#9c9c9c;
+
+
+}
+.MidBack{
+    background-color: rgb(0, 0, 0,.5);
+    color:#9c9c9c;
+
+
+}
+
+.signInFont{
+    font-size: 20px;
+}
+.paddingLeft50{
+    padding-left: 50px;
+}
+.signInInputBar{
+    color: #9c9c9c;
+    width: 450px;
+    height: 50px;
+    border-radius: 9px;
+    background-color: rgb(44, 44, 44,0.9);
+}
+.signInBtn{
+    width: 150px;
+    color: #9c9c9c;
+    height: 50px;
+    border-radius: 9px;
+    text-align: center;
+    background-color: rgba(22, 22, 22, 0.9);
+}
+.CreateInputBar{
+    width: 450px;
+    height: 50px;
+    border-radius: 9px;
+    background-color: rgb(44, 44, 44,0.9);
+}
+.CreateInputTextArea{
+    width: 95%;
+    height: 150px;
+    border-radius: 9px;
+    background-color: rgb(44, 44, 44,0.9);
+}
+.userImage{
+    
+    height: 15rem;
+    width: 16rem;
+}
+.allUserImage{
+    
+    height: 8rem;
+    width: 9rem;
+}
+.navPtag{
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    color:#9c9c9c;
+}
+
+
+.dropdown-menu.show {
+    background: rgba(0, 0, 0, 0.6);
+}
+.SearchBarEdit{
+    width:30rem;
+    color:#ffffff;
+    background:rgba(100, 100, 100, 0.5) ;
+    border:none;
+    padding:0.5rem;
+    height:3rem;
+}
+
+
